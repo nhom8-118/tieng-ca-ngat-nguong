@@ -25,7 +25,7 @@ export default function PortraitSection() {
           <div className="absolute inset-0 border-2 border-imperial-red/30 translate-x-4 translate-y-4" />
           <div className="relative w-full h-full overflow-hidden border border-imperial-red/50">
             <img 
-              src="/nguyen-cong-tru-08.webp" 
+              src="./nguyen-cong-tru-08.webp" 
               alt="Nguyễn Công Trứ Portrait"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
