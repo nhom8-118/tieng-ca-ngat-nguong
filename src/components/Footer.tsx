@@ -39,7 +39,7 @@ export default function Footer() {
         </motion.div>
         
         <div className="flex justify-center mt-12">
-          <button className="px-8 py-3 border border-parchment/30 hover:bg-parchment hover:text-ink-black transition-all font-sans uppercase tracking-widest text-sm">
+          <button href="https://github.com/nhom8-118/tieng-ca-ngat-nguong" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 border border-parchment/30 hover:bg-parchment hover:text-ink-black transition-all font-sans uppercase tracking-widest text-sm text-center">
             Khám phá thêm
           </button>
         </div>
@@ -67,13 +67,13 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 mt-20 flex flex-col md:flex-row justify-between items-center gap-8 opacity-40 text-xs uppercase tracking-[0.3em]">
-        <p>© 2026 HI VĂN - TIẾNG CA NGẤT NGƯỞNG</p>
+        <p>© 2026 NHÓM 8 - 11/8 - NGUYỄN CÔNG TRỨ</p>
         <div className="flex gap-8">
-          <a href="#" className="hover:text-imperial-red transition-colors">Facebook</a>
-          <a href="#" className="hover:text-imperial-red transition-colors">Instagram</a>
-          <a href="#" className="hover:text-imperial-red transition-colors">Behance</a>
+          <a href="https://www.facebook.com/nguyen.howie.2024" target="_blank" className="hover:text-imperial-red transition-colors">Facebook</a>
+          <a href="https://www.instagram.com/hwienguyn?igsh=cXhsdmowaG9waTUx" target="_blank" className="hover:text-imperial-red transition-colors">Instagram</a>
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=KzVwFd9WwoSh3w83" target="_blank" className="hover:text-imperial-red transition-colors">Youtube</a>
         </div>
-        <p>THIẾT KẾ BỞI AI STUDIO</p>
+        <p>THIẾT KẾ BỞI AI - Host bởi Hồng Ân</p>
       </div>
     </footer>
   );
